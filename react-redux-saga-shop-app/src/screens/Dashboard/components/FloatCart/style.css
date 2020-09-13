@@ -1,0 +1,116 @@
+.float-cart {
+    position: fixed;
+    top: 0;
+    right: -450px;
+    width: 450px;
+    height: 100%;
+    background-color: #1b1a20;
+    box-sizing: border-box;
+    -webkit-transition: right .2s;
+    transition: right .2s;
+}
+.float-cart h2{
+    color: #ffffff;
+    /* margin-bottom: 60px; */
+    text-align: center;
+}
+.selectProduct{
+    color:#ffffff;
+    display: flex;
+    padding: 0 0 0 20px;
+    flex-direction: column;
+}
+.selectProduct span {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.selectProduct img{
+    width:60px;
+    height: 90px;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 25px;
+}
+.count span{
+    color: #eabf00;
+}
+.counter {
+    margin-top: 35px;
+}
+.counter button {
+   color:#000
+}
+.cart{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.cart svg{
+    fill: #ffffff;
+    width: 60px;
+    margin-top: 25px;
+}
+.cart div{
+    width: 20px;
+    background: #eabf00;
+    border-radius: 50%;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    margin-left: -10px;
+    position: absolute;
+}
+.roundCounter{
+width: 20px;
+    background: #eabf00;
+    border-radius: 50%;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 12px;
+    position: absolute;
+}
+.quantity{
+    color: #5b5a5e;
+}
+.desc{
+    
+display: flex;
+flex-direction: column;
+}
+.checkout{
+    background: #000;
+    width: 360px;
+    height: 50px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}.bottom{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
+    width: 100%;
+}
+.total{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.righ-floet{
+    right: 20px;
+}

@@ -1,0 +1,18 @@
+.makeStyles-root-1{
+    width: 230px;
+}
+.check-out{
+    background-color: #1b1a20 !important;
+    color: #fff !important;
+    padding: 15px 0 !important;
+    margin-top: 10px !important;
+    cursor: pointer !important;
+    width: 229px !important;
+    justify-content: center !important;
+}
+.check-out:focus{
+background: #eabf00 !important;
+}
+.MuiPaper-elevation1{
+    box-shadow: unset !important;
+}

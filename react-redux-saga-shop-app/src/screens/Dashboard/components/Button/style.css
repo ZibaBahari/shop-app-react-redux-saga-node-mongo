@@ -1,0 +1,17 @@
+.CartIcon {
+    width: 60px;
+    height: 60px;
+    background-color: #1b1a20 !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    right: 0;
+    top: 0px;
+    position: absolute;
+    -webkit-transition: right .2s;
+    transition: right .2s;
+}
+.CartIcon svg{
+    fill: #ffffff;
+}
+
